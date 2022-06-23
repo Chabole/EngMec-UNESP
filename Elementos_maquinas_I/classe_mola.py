@@ -100,10 +100,7 @@ class mola:
         df = pd.DataFrame.from_dict(dic)
         return df.T
 
-molas = mola('A232', 600, 300, 25E-3, 1.5, 8, 310)
-print(molas.parametros(6.5E-3))
 
-print('---------------')
 
-molas = mola('A228', 1000, 780, 22E-3, 1.5, 8, 310)
+molas = mola('A227', 150*4.44822, 100*4.44822, 0.75*0.0254, 2, 8, 310)
 print(molas.parametros(6.5E-3))
