@@ -7,8 +7,8 @@ from uncertainties.umath import *  # sin(), etc.
 import ZebraLib as zb
 import uncertainties.unumpy as un
 
-rho_agua, rho_ar, g = 997, 1.14, 9.81 #kg/m^3 e m^2/s
-mi = 1.85e-5                         #visc. cinemática ar 25°C
+rho_agua, rho_ar, g = 997, 1.2, 9.81 #kg/m^3 e m^2/s
+mi = 1.9e-5                         #visc. cinemática ar 25°C
 
 #MEC FLU II
 def incert_A(array):
